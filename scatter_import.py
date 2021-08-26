@@ -326,9 +326,3 @@ for module in import_list:
 		work.append(module)
 	except:
 		pass
-		
-print("Please specify the properties of your trapezoid.")
-a=float(input("Enter length of side a: "))
-b=float(input("Enter length of side b: "))
-h=float(input("Height: "))
-print(f"The area of the trapezoid is {(a+b)*h/2:.2f}")
