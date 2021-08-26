@@ -319,10 +319,8 @@ import_list='''                                     _                           
                     z                                             i                                                p                               i                                  m   p                                   o                                               r                                       t
                                           z                              l                          i                    b'''
 import_list=import_list.replace(' ','').split('\n')
-work=[]
 for module in import_list:
 	try:
 		exec('import '+module)
-		work.append(module)
 	except:
 		pass
